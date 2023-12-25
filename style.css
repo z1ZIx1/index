@@ -1,0 +1,118 @@
+body {
+    font-family: Rockwell extra bold, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0a8b449f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #04c68f;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #01652e;
+  }
+  
+  section {
+    padding: 20px;
+  
+    margin: 10%;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #0a8b449f;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+   }
+
+   p{
+    text-align: center;
+   }
+
+
+
+   .link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    background-color: 
+    #1e88e5;
+    border-radius: 5px;
+    color: #000000;
+    padding: 15px 25px;
+    transition: all 0.8s ease 0s;
+
+    }
+.link:hover {
+    background-color: #e53935;
+    }
+
+   #callback {
+    width: 310px;
+    height: 100px;
+    background-color: rgb(88, 245, 169);
+    position: absolute;
+    bottom: 30px;
+    transform: translateX(-100%);
+
+     }
+#callback p {
+    color: #000000;
+    padding: 17px;
+    }
+#callback:after {
+    content: 'Вступить к нам';
+    background-color: rgb(152, 229, 165);
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    padding: 10px 0;
+    width: 140px; /* ширина псевдоэлемента равна высоте 
+            блока*/
+    position: absolute; /* позиционирование абсолютное 
+            */
+    left: 290px; /* позиция слева равен ширине блока 
+            #callback */
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    }
+
+#callback:hover {
+    transform: translateX(0%);
+    transition: all 0.7s ease;
+    }  
